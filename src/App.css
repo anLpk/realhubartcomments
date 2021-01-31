@@ -1,0 +1,61 @@
+.content-container > :first-child {
+  color: #02b7e2;
+}
+
+.content-container {
+  margin-left: 0.5em;
+  margin-top: -0.2em;
+  font-weight: 500;
+  border-radius: 0.2em;
+}
+
+.post-text {
+  margin-top: -1em;
+  font-size: 15px;
+}
+
+.time-ago {
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: -1em;
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 2.5em;
+  vertical-align: middle;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+
+.main-container {
+  display: flex;
+  background-color: white;
+  border-left: 1px solid #d8d9d9;
+  border-right: 1px solid #d8d9d9;
+  border-bottom: 0.1em dashed #d8d9d9;
+  padding: 0.5em;
+  height: 5em;
+  padding-top: -0.3em;
+}
+
+.markSeen {
+  color: tomato;
+  font-weight: bolder;
+  margin-left: 0.5em;
+}
+
+.markSeen:hover {
+  cursor: pointer;
+}
+
+.clicked {
+  display: none;
+}
+
+.bottom-text {
+  display: flex;
+}
+
+.isActive {
+  background-color: white;
+}
